@@ -1,78 +1,152 @@
 <!DOCTYPE html>
-<htm>
+<html>
 
 <head>
-    <link rel="stylesheet" href="./CSS/reset.css">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOGIN</title>
     <style>
-        div.box1 {
-            text-align: center;
-            margin: 0 auto;
-            margin-top: 250px;
-            background-color: rgba(38, 47, 51, 0.637);
-            width: 300px;
-            height: 250px;
-            border-radius: 20px;
-            overflow: hidden;
-        }
-
-        input {
-            margin: 0 0 10px 0;
-        }
-
-        .input1,
-        .input2 {
-            width: 180px;
-            border: 0px;
-            background-color: transparent;
-            border-bottom: 1px rgb(64, 147, 224) solid;
-        }
-
-        .input3 {
-            border-radius: 30px;
-            width: 80px;
-            border: 0;background: linear-gradient(to left, #5433FF, #20BDFF, #A5FECB);
-        }
-
         body {
-            background-image: url(./img/bgimg.jpg);
+            background-size: 100% 100%;
+            background-image: url(./img/2.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 100%;
+
         }
-        .h1{
-            
-            margin-top: 50px;
-            margin-bottom: 9px;
-            
-            font-size: 30px;
-            color: rgba(0, 119, 255, 0.575);
+
+
+
+        .im1 {
+            border-radius: 50%;
+
+            width: 100px;
+            height: 100px;
+
+
         }
-        span{
-            font-size: 12px;
-            color: rgba(0, 162, 255, 0.514);
-            
-            
+
+        .box1 {
+            margin: 0 auto;
+            margin-top: 100px;
+            width: 300px;
+            height: 210px;
+            text-align: center;
+            border-bottom: 2px rgba(255, 255, 255, 0.521) solid;
+            /* font-family: 'Old English Text MT', 'EngraversOldEnglishBT-Bold', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif; */
+
+        }
+
+        .box2 p {
+            font-size: 15px;
+        }
+
+        .p1 {
+
+            color: #ffffffb4;
+        }
+
+        .box2 {
+            text-align: center;
+        }
+
+        .nav {
+            text-align: center;
+            width: 648px;
+            height: 39px;
+            margin: 0 auto;
+        }
+
+        a {
+            margin: 0 auto;
+            text-decoration: none;
+            color: rgba(238, 238, 238, 0.781);
+            font-size: 20px;
+            border: 1px rgba(231, 231, 231, 0.795) solid;
+            display: block;
+            width: 100px;
+            height: 30px;
+            border-radius: 20px;
+            margin-right: 5px;
+            margin-bottom: 10px;
+
+        }
+
+        a:hover {
+            color: white;
+            border: solid 1px white;
+        }
+
+        li {
+            list-style-type: none;
+            float: left;
+
+        }
+
+        .nav2 {
+            margin: 0 auto;
+            text-align: center;
+            width: 500px;
+        }
+
+        @media only screen and (max-width:670px) {
+            .nav {
+                display: none;
+            }
+
+            .nav2 {
+                display: none;
+            }
+
+            html,
+            body {
+                height: 100%;
+                background-size: cover;
+                background-attachment: fixed;
+            }
+
+
+
+        }
+
+        p {
+            color: white;
+        }
+
+        h1 {
+            color: white;
         }
     </style>
+    <title>Yalei</title>
 </head>
 
 <body>
-   
     <div class="box1">
-        <div class="h1">
-            <h1>LOGIN</h1>
-        </div>
-        <form action="">
-            <span>账号 </span><input type="Usename" class="input1" placeholder=" Usename"><br>
-            <span>密码 </span><input type="password" class="input2" placeholder=" Password"><br><br>
-            <input type="button" value="登  录" class="input3">
+        <img src="./img/1.jpg" alt="" class="im1">
+        <img src="./img/logo.png" alt="">
+        <p class="p1">爱学习，爱分享，爱生活，爱张嘉天</p>
+    </div><br>
+    <div class="box2">
+        <p>弱小和无知,不是生存的障碍，傲慢才是。</p>
+        <p>——「三体」</p>
+    </div><br><br><br>
+    <div class="nav">
+        <li><a href="">首页</a></li>
+        <li><a href="./boke/index.html">个人博客</a></li>
+        <li><a href="https://www.baidu.com/">百度</a></li>
+        <li><a href="https://github.com/Yalei888">github</a></li>
+        <li><a href="https://qiye.aliyun.com/alimail/auth/login?lang=zh_CN">E-mail</a></li>
+        <li><a href="">google</a></li><br>
 
-           
-
-        </form>
     </div>
-    
+    <div class="nav2">
+        <li><a href="https://www.csdn.net/">CSDN</a></li>
+        <li><a href="https://www.kinh.cc/" style="width: 160px;">网盘不限速下载</a></li>
+        <li><a href="https://nbyun.org/">科学上网</a></li>
+        <li><a href="http://146.56.250.139:8888/">网站管理</a></li>
+    </div>
+
 </body>
 
 </html>
