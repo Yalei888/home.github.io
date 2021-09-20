@@ -1,0 +1,151 @@
+{
+    "header": [
+        " *   ",
+        " *   如非需要调试，本文件可删除",
+        " *   非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.me/faq#INFO-JSON",
+        " *   "
+    ],
+    "resources": [
+        {
+            "url": "https://www.huaimingxiang.site/",
+            "path": "index.html",
+            "saved": true,
+            "size": 8305,
+            "children": [
+                {
+                    "url": "https://www.huaimingxiang.site/img/logo2.jpg",
+                    "path": "img/logo2.jpeg",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://www.huaimingxiang.site/assets/js/jquery.min.js",
+                    "path": "js/jquery.min.js",
+                    "saved": true,
+                    "size": 86927,
+                    "children": []
+                },
+                {
+                    "url": "https://www.huaimingxiang.site/assets/js/fetch.min.js",
+                    "path": "js/fetch.min.js",
+                    "saved": true,
+                    "size": 7249,
+                    "children": []
+                },
+                {
+                    "url": "https://www.huaimingxiang.site/assets/js/main.js",
+                    "path": "js/main.js",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://cdn.webfont.youziku.com/webfonts/nomal/123918/33195/5d21f88af629d8080c5960eb.css",
+                    "saved": false
+                },
+                {
+                    "url": "https://www.huaimingxiang.site/assets/css/vno.css",
+                    "path": "css/vno.css",
+                    "saved": true,
+                    "size": 162925,
+                    "children": [
+                        {
+                            "url": "https://www.huaimingxiang.site/img/beian.png",
+                            "saved": false
+                        }
+                    ]
+                },
+                {
+                    "url": "https://www.huaimingxiang.site/assets/css/iconfont.css",
+                    "path": "css/iconfont.css",
+                    "saved": true,
+                    "size": 6966,
+                    "children": [
+                        {
+                            "url": "https://www.huaimingxiang.site/assets/css/iconfont.eot?t=1538765677655",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.huaimingxiang.site/assets/css/iconfont.eot?t=1538765677655#iefix",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.huaimingxiang.site/assets/css/iconfont.ttf?t=1538765677655",
+                            "saved": false
+                        },
+                        {
+                            "url": "https://www.huaimingxiang.site/assets/css/iconfont.svg?t=1538765677655#iconfont",
+                            "saved": false
+                        }
+                    ]
+                },
+                {
+                    "url": "https://www.huaimingxiang.site/apple-touch-icon.png",
+                    "path": "img/apple-touch-icon.png",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                },
+                {
+                    "url": "https://www.huaimingxiang.site/favicon.ico",
+                    "path": "favicon.ico",
+                    "saved": true,
+                    "size": 0,
+                    "children": []
+                }
+            ]
+        }
+    ],
+    "alias": "www-huaimingxiang-site-tqp5qd7",
+    "info": {
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "accept-encoding": "gzip",
+                "cache-control": "no-cache",
+                "cookie": "",
+                "referer": "https://www.huaimingxiang.site/assets/css/iconfont.css",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.me/"
+            }
+        },
+        "response": {
+            "redirects": [],
+            "responseUrl": "https://www.huaimingxiang.site/",
+            "statusCode": 200,
+            "headers": {
+                "server": "nginx",
+                "date": "Mon, 20 Sep 2021 03:18:24 GMT",
+                "content-type": "text/html",
+                "last-modified": "Sat, 04 Sep 2021 05:14:23 GMT",
+                "transfer-encoding": "chunked",
+                "connection": "close",
+                "vary": "Accept-Encoding",
+                "etag": "W/\"613300af-2130\"",
+                "strict-transport-security": "max-age=31536000"
+            }
+        },
+        "time": {
+            "start": "2021-09-20T03:18:23.503Z",
+            "end": "2021-09-20T03:18:35.872Z"
+        },
+        "remark": [],
+        "ip": "81.69.11.18",
+        "url": "https://www.huaimingxiang.site/",
+        "main": "index.html",
+        "domain": "www.huaimingxiang.site",
+        "origin": "https://www.huaimingxiang.site",
+        "totalSize": "272 kB"
+    },
+    "options": {
+        "formatter": [],
+        "url": "https://www.huaimingxiang.site/",
+        "referer": "",
+        "cookies": "",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+        "filenameGenerator": "byType"
+    }
+}
